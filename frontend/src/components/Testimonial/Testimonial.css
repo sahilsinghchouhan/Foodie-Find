@@ -1,0 +1,74 @@
+.testimonial-section {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.testimonial-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.testimonial-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.testimonial-slider .testimonial-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 250px; /* Fixed height for the card */
+  max-width: 90%; /* Prevent the card from stretching */
+  margin: 0 auto;
+  overflow: hidden; 
+}
+.testimonial-slider .slick-slide {
+  padding: 0 10px; /* Add spacing between cards */
+}
+
+.testimonial-slider .slick-list {
+  margin: 0 -10px; /* Adjust for padding on the slides */
+}
+
+.testimonial-message {
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #555;
+  /* Hide overflowing text */
+  text-overflow: ellipsis; /* Add '...' for overflowing text */
+  white-space: normal; /* Allow multi-line text */
+  max-height: 100px; /* Limit text height */
+  line-height: 1.5; 
+}
+
+.testimonial-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+  margin-top: 65px;
+}
+
+/* Customize slick dots */
+.slick-dots li button:before {
+  color: #333;
+}
+.slick-dots {
+  margin-top: 20px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #000;
+}

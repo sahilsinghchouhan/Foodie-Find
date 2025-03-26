@@ -1,0 +1,52 @@
+.best-chef-section {
+    background-color: #fefefe;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .chef-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .chef-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .chef-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .chef-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chef-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .chef-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  .chef-message {
+    font-size: 1rem;
+    color: #555;
+  }
+  

@@ -1,0 +1,85 @@
+.place-order{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+   
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+    margin: 5rem auto;
+    max-width: 1200px;
+
+}
+.place-order-left, .place-order-right{
+    flex: 1;
+    min-width: 280px;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+}
+.place-order-left .tittle{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+}
+.place-order-left input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+   
+  }
+  .place-order-left .multi-fileds {
+    display: flex;
+    gap: 1rem;
+  }
+  .place-order-left .multi-fileds input {
+    flex: 1;
+  }
+  .place-order-right h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  .place-order-right p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    color: #555;
+  }
+  .place-order-right button {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #fe5005;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+  }
+  .place-order-right button:hover{
+    background-color: #d94704;
+  }
+  @media (max-width: 768px) {
+    .place-order {
+      flex-direction: column;
+      padding: 1rem;
+ 
+    }
+   
+   
+  }
+  
+  
+  
+  
