@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "./MyOrders.css"
+import "./Myorders.css"
 import { useContext } from 'react'
 import {StoreContext} from "../../Contex/StoreContex"
 import { useEffect } from 'react'
